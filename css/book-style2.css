@@ -1,0 +1,976 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+#loginform {
+margin-top:24px;
+margin-left:36px;
+}
+
+#loginform > div {
+margin-top: 12px;	
+}
+
+#Registerform {
+margin-left:30px;
+}
+
+#Changeform {
+}
+
+#eventForm {
+margin-left:30px;
+}
+
+#loginforminput > input {
+width: 90%;
+padding: 8px;
+border: 1px solid #ffffff;
+background: #6B7684;
+color:#9D9D95;
+display:block;
+
+margin: 0px auto;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+#registerUsername > input {
+width: 90%;
+padding: 9px 8px 9px 8px;
+border: 1px solid #ffffff;
+background: #6B7684;
+color:#9D9D95;
+display:block;
+margin: 0px auto;
+margin-top: 3%;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 12px;
+}
+
+#datumTeksts > input {
+width: 85%;
+padding: 9px 8px 9px 8px;
+border: 1px solid #ffffff;
+background: #6B7684;
+color:#9D9D95;
+display:block;
+margin: 0px auto;
+margin-top: 3%;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 12px;
+}
+
+#timeField > input {
+width: 85%;
+padding: 9px 8px 9px 8px;
+border: 1px solid #ffffff;
+background: #6B7684;
+color:#9D9D95;
+display:block;
+margin: 0px auto;
+margin-top: 3%;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 12px;
+}
+
+#descriptionField > input {
+width: 85%;
+padding: 9px 8px 9px 8px;
+border: 1px solid #ffffff;
+background: #6B7684;
+color:#9D9D95;
+display:block;
+margin: 0px auto;
+margin-top: 3%;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 12px;
+}
+
+#vietasLauks > input {
+width: 85%;
+padding: 9px 8px 9px 8px;
+border: 1px solid #ffffff;
+background: #6B7684;
+color:#9D9D95;
+display:block;
+margin: 0px auto;
+margin-top: 3%;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 12px;
+}
+
+#passcontainer > input {
+width: 90%;
+padding: 8px;
+border: 1px solid #ffffff;
+display:block;
+background: #6B7684;
+color:#9D9D95;
+margin: auto;
+margin-bottom: 3px;
+}
+
+#oldpassword > input {
+width: 90%;
+padding: 8px;
+border: 1px solid #ffffff;
+display:block;
+background: #6B7684;
+color:#9D9D95;
+margin: auto;
+margin-bottom: 3px;
+}
+
+#passcontainer2 > input {
+width: 90%;
+padding: 8px;
+border: 1px solid #ffffff;
+display:block;
+background: #6B7684;
+color:#9D9D95;
+margin: auto;
+margin-bottom: 3px;
+}
+
+#passcontainer3 > input {
+width: 90%;
+padding: 8px;
+border: 1px solid #ffffff;
+display:block;
+background: #6B7684;
+color:#9D9D95;
+margin: auto;
+margin-bottom: 3px;
+}
+
+span#passcontainer3 {
+margin-left:222px;
+}
+
+#atpazisanasVards > input {
+width: 90%;
+padding: 8px;
+border: 1px solid #ffffff;
+display:block;
+background: #6B7684;
+color:#9D9D95;
+margin: auto;
+margin-bottom: 3px;
+}
+
+#atpazisanasVards2 > input {
+width: 90%;
+padding: 8px;
+border: 1px solid #ffffff;
+display:block;
+background: #6B7684;
+color:#9D9D95;
+margin: auto;
+margin-bottom: 3px;
+}
+
+#leftbigbookmcont{
+display:block;
+width:1352px;
+margin:auto;
+clear:both;
+height:625px;
+}
+
+#containerinbigleft {
+width:1187px;
+margin:auto auto;
+height:625px;
+float:left;
+}
+
+#centercontainer {
+width:590px;
+margin:auto;
+height:625px;
+margin-top: 1%;
+background: #10253F;
+}
+
+#bookmarks {
+width:82px;
+height:625px;
+float:left;
+}
+
+#bookmarks1 {
+width:82px;
+height:625px;
+float:left;
+}
+
+.bookmark1 {
+border-bottom: 1px solid #FFFFFF;
+border-top: 1px solid #FFFFFF;
+width:73px;
+text-align: center;
+height: 87.2px;
+background:#536C8C;
+float:right;
+}
+
+.bookmark1.first {
+border-top:none;
+background:#FFFFFF;
+text-align: none;
+}
+
+
+.bookmark {
+border-top:1px solid #FFFFFF;
+border-bottom: 1px solid #FFFFFF;
+width:73px;
+height: 87.2px;
+}
+
+.bookmarklink {
+display:block;
+text-decoration:none;
+
+}
+
+.bookmark.first {
+border-top:none;
+height: 87.2px;
+}
+
+.bookmark.last{
+border-bottom:none;
+height: 89.2px;
+}
+
+.bookmarka {
+border-top:1px solid #FFFFFF;
+border-bottom: 1px solid #FFFFFF;
+color: #FFFFFF;
+width:82px;
+height: 87.2px;
+}
+.bookmarka1 {
+border-bottom: 1px solid #FFFFFF;
+border-top:none;
+color: #FFFFFF;
+width:82px;
+height: 87.2px;
+}
+
+.bookmark:hover {
+width:82px;
+}
+
+.bookmark:hover div{
+margin-top: 44.5%;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.bookmark1:hover div{
+margin-top: 44.5%;
+}
+
+.bookmarka div{
+margin-top: 45%;
+}
+
+.bookmark1:hover {
+width:82px;
+}
+
+.color1 {
+background:#10253F;
+}
+
+#pageEven.color1 {
+background:#10253F;
+}
+
+.color2 {
+background:#193B65;
+}
+
+#pageEven.color2 {
+background:#193B65;
+}
+
+#number3.notlist {
+background:#10253F;
+}
+
+.color3 {
+background:#235591;
+}
+
+#number4.notlist {
+background:#193B65;
+}
+
+#pageEven.color3 {
+background:#235591;
+}
+
+.color4 {
+background:#3074C6;
+}
+
+#number5.notlist {
+background:#235591;
+}
+
+#pageEven.color4 {
+background:#3074C6;
+}
+
+.color5 {
+background:#5791D7;
+}
+
+#number6.notlist {
+background:#3074C6;
+}
+
+#pageEven.color5 {
+background:#5791D7;
+}
+
+.color6 {
+background:#9EBFE6;
+}
+
+#pageEven.color6 {
+background:#9EBFE6;
+}
+
+#number7.notlist {
+background:#5791D7;
+}
+
+#pageUnEven.none {
+background:#FFFFFF;
+border-left:none;
+}
+
+.none {
+background:#FFFFFF;
+}
+
+#container {
+width:1351px;
+display:block;
+margin:auto auto;
+height:625px;
+margin-top: 3%;
+}
+
+#pageUnEven{
+border-right: 1px solid #ccc;
+border-left:2px solid #FFFFFF;
+width: 590px;
+height: 625px;
+float:left;
+background:#536C8C;
+position:relative;
+}
+
+#pageUnEvenHeader{
+border-bottom: 2px solid #CCC1DA;
+background: #24538C;
+height: 170px;
+width:590px;
+}
+
+.pageUnEvenSquare{
+height:150px;
+width:194px;
+background: #558ED5;
+border-bottom: 2px solid #CCC1DA;
+float:left;
+}
+
+.pageUnEvenSquare1{
+background: #377BCD;
+}
+
+#pageUnEvenBigSquare{
+width:394px;
+height:302px;
+background: #17375E;
+float:right;
+border-bottom: 2px solid #CCC1DA;
+border-left: 2px solid #CCC1DA;
+}
+
+.pageUnEvenNotSquare{
+width:194px;
+height:100px;
+background: #17375E;
+float:left;
+border-top: 2px solid #CCC1DA;
+border-right: 2px solid #CCC1DA;
+border-bottom: 4px solid #CCC1DA;
+}
+
+.pageUnEvenNotSquare1{
+background: #376092;
+}
+
+.pageUnEvenNotSquare2{
+background: #95B3D7;
+border-right: none;
+width: 198px;
+}
+
+.pageUnEvenFooter{
+height:42px;
+background: #040910;
+width:590px;
+float:left;
+}
+
+#pageEven{
+border-right:1px solid #ccc;
+border-left: 2px solid #ccc;
+width: 590px;
+height: 625px;
+float:left;
+background:#536C8C;
+}
+
+.contbookm{
+position:relative;
+width: 590px;
+height: 87.2px;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+background:#536C8C;
+} 
+.pagefirst.contbookm {
+border-top:none;
+border-bottom: 1px solid #ccc;
+}
+.pagelast.contbookm {
+border-bottom: none;
+}
+
+#login {
+margin-left:10px;
+width:90%;
+height:150px;
+padding-top:40%;
+}
+
+#login2 {
+margin-left:10px;
+width:90%;
+height:150px;
+padding-top:30%;
+}
+#registerField {
+margin-left:10px;
+width:90%;
+height:150px;
+padding-top:20%;
+}
+
+.text {
+float:right;
+text-align:center;
+padding-top:10px;
+font-size: 14px;
+color:#FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+clear:both;
+margin-bottom: 4px;
+}
+
+.centerText{
+margin-top:15px;
+text-align:center;
+font-size: 14px;
+color:#FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+.errorText {
+padding-top:10px;
+text-align:center;
+font-size: 14px;
+color:#FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+clear:both;
+margin-bottom: 4px;
+}
+
+.textReg{
+padding-top:10px;
+font-size: 14px;
+color:#FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+margin-left:200px;
+text-align:center;
+}
+
+span#oldpassword{
+margin-left:225px;
+}
+
+#registerUsername.textReg{
+	margin-left:185px;
+}
+
+#passcontainer2.textReg{
+	margin-left:205px;
+}
+#passcontainer3.textreg{
+	margin-left:245px;
+}
+span#atpazisanasVards{
+	margin-left:235px;
+}
+span#atpazisanasVards2{
+	margin-left:228px;
+}
+
+.textWithLogin {
+clear:none;
+float:right;
+margin-right:5px;
+margin-top: -3px;
+}
+
+.textInLogin{
+text-align:center;
+padding-top:10px;
+font-size: 14px;
+color:#FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+clear:both;
+margin-bottom: 4px;
+padding-left:6%;
+}
+.texta {
+text-decoration: none;
+color:#FFFFFF;
+}
+
+.text2a {
+color:#000262;
+}
+
+.textspan{
+color:#000262;
+font-size: 10px;
+font-family: 'Merriweather Sans', sans-serif;
+clear:both;
+}
+
+.text3{
+font-size: 10px;
+font-family: 'Merriweather Sans', sans-serif;
+margin-bottom: 4px;
+}
+
+#logo {
+margin:15% 0px 0px 45%;
+}
+
+#button_text{
+width:96.5%;
+height:100px;
+}
+
+.lastpageleft {
+background: #536C8C;
+}
+
+#pageEven.none{
+background:#FFFFFF;
+border-right: none;
+position:relative;
+}
+
+#middletextthanks {
+font-size: 12px;
+width:250px;
+height:30px;
+text-align:center;
+margin-top:20%;
+margin:auto;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+.textmiddle {
+font-size: 12px;
+margin-top: 25%;
+text-align:center;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+.textmiddle1 {
+font-size: 12px;
+margin-top: 10%;
+text-align:center;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+#loginform.texta input{
+color:#FFFFFF;
+font-size: 12px;
+}
+
+.textmiddle2 {
+font-size: 12px;
+margin-top:7.5%;
+text-align:center;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+.loginbtn_main{
+clear:none;
+width:68px;
+height:22px;
+border:1px #FFFFFF solid;
+font-size:14px;
+margin-top: 0px;
+padding-top:4px;
+text-align: center;
+background-color: #5791D7;
+}
+
+.loginbtn_login {
+width:68px;
+height:22px;
+border:1px #FFFFFF solid;
+font-size:14px;
+margin: auto auto;
+margin-top:10px;
+padding-top:2px;
+background-color: #5791D7;
+padding-left:-6px;
+}
+
+.loginbtn_login {
+width:68px;
+height:22px;
+border:1px #FFFFFF solid;
+font-size:14px;
+margin: auto auto;
+margin-top:10px;
+padding-top:2px;
+background-color: #5791D7;
+padding-left:-6px;
+}
+
+.loginbtn_login2 {
+width:94px;
+height:22px;
+border:1px #FFFFFF solid;
+font-size:14px;
+margin: auto auto;
+margin-top:10px;
+padding-top:2px;
+background-color: #5791D7;
+padding-left:-6px;
+}
+
+.text.loginbtn_login{
+vertical-align:center;
+margin-right:215px;
+}
+
+.text.loginbtn_login2{
+vertical-align:center;
+margin-right:200px;
+}
+
+#loginbtn1.rightbut {
+float:left;
+margin: 1.7% 0 0 14.5%;
+}
+
+#loginbtn1.leftbut {
+position:absolute;
+left:54.5%;
+top:70%;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+.texta.orpossition{
+position:absolute;
+font-family: 'Merriweather Sans', sans-serif;
+font-size:12px;
+left:48.75%;
+top:71.7%;
+}
+
+.lastpage {
+float:right;
+}
+
+.lastpage2www {
+margin-left:80.8%;
+}
+
+#ex1 {
+margin-top:20px;
+display:block;
+float:left;
+margin-left:20px;
+width:500px;
+height:48px;
+background-color:rgba(0,0,0,0.4);
+border-radius:10px;
+}
+
+#exlibri_playback{
+margin-top:25px;
+display:block;
+float:left;
+margin-left:20px;
+}
+
+.exlibr_text{
+color:#FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+font-size:12px;
+margin-top:19px;
+float:left;
+}
+
+.exlibr_text2{
+color:#FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+font-size:12px;
+margin-top:18px;
+float:left;
+}
+
+.exlibr_text.welcome_message{
+color:rgb(31,157,212);
+margin-left:30px;
+margin-right:10px;
+}
+.exlibr_text.links{
+margin-left:50px;
+}
+.exlibr_text2.links{
+margin-left:44px;
+margin-top:19px;
+}
+
+a:link {
+margin-top:15px;
+color:#FFFFFF;
+}
+
+a:visited {
+margin-top:15px;
+color:#FFFFFF;
+}
+
+.exlibri_img{
+margin-top:-5px;
+width:22px;
+height:22px;
+}
+
+.exlibri_setup{
+margin-left:6px;
+margin-top:0px;
+float:right;
+}
+
+.imgnoneactive.leftfl {
+float: left;
+width: 82px;
+}
+
+
+
+.imgnoneactive{
+height:87.2px;
+width: 73px;
+float:right;
+}
+.imgnoneactive:hover{
+height:87.2px;
+width: 82px;
+}
+
+.bookmortexts {
+margin-top:50%;
+text-transform:uppercase;
+font-size: 11px;
+font-family: 'Merriweather Sans', sans-serif;
+text-align: center;
+clear:both;
+}
+
+.adepts{
+text-align: center;
+margin-top: 6%;
+color: #FFFFFF;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 12px;
+}
+
+.activecontent {
+height:537px;
+width:590px;
+}
+
+.activecontent1 {
+height:537px;
+width:590px;
+}
+
+.activecontent2 {
+height:537px;
+width:590px;
+}
+
+#activecontent3 {
+height:537px;
+width:590px;
+}
+
+.activetext {
+float:none;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+#vertejums.votes {
+padding-top:0px;
+margin-top:0px;
+}
+
+.votes{
+clear:both;
+float:right;
+display:block;
+}
+.activetitle {
+font-size:20px;
+margin-top:10px;
+text-align:center;
+}
+
+.notikums{
+border:1px solid #FFFFFF;
+width:588px;
+height:50px;
+float:left;
+display:block;
+}
+
+#lietotaj_info{
+width:588px;
+border-bottom:1px solid #FFFFFF;
+height:40px;
+}
+
+.nosaukums{
+text-align:center;
+width:130px;
+height:50px;
+border-right:1px solid #FFFFFF;
+float:left;
+display:block;
+}
+
+.datums{
+text-align:center;
+width:103px;
+height:50px;
+border-right:1px solid #FFFFFF;
+float:left;
+display:block;
+}
+
+a.centerText{
+font-size:14px;
+margin-top:15px;
+}
+
+.vertejums{
+width:75px;
+height:50px;
+border-right:1px solid #ffffff;
+float:left;
+padding-left:15px;
+}
+
+.vertejums2{
+width:90px;
+height:50px;
+border-right:1px solid #ffffff;
+float:left;
+}
+
+.chrome #loginbtn2 {
+margin-left: -2.5%;
+}
+
+.chrome #loginbtn1.leftbut {
+top:69.5%;
+left:55%;
+}
+
+.chrome .lastpage2www{
+margin-left:80.65%;
+}
+
+.safari #loginbtn2 {
+margin-left: -3%;
+}
+
+.safari #loginbtn1.leftbut {
+top:69.25%;
+left:55%;
+}
